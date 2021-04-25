@@ -1,0 +1,24 @@
+.actions {
+  opacity: 0;
+}
+tr:hover .actions {
+  opacity: 1;
+}
+
+tbody td a {
+  span.edit {
+    color: rgba(133, 128, 128, 0.776);
+  }
+  &:hover span.edit {
+    color: rgba(28, 25, 25, 0.776);
+  }
+}
+
+tbody td a {
+  span.remove {
+    color: #d31a1a;
+  }
+  &:hover span.remove {
+    color: #7d0000;
+  }
+}
