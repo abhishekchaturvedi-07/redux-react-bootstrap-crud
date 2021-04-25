@@ -10,7 +10,7 @@ const Navbar = () => {
       <nav className="navbar shadow fixed-top navbar-expand-sm navbar-dark bg-primary">
         <div className="container">
           <Link to="/" className="navbar-brand">
-            Community Contact
+            <img src="/logo.png" width="100" height="45" />
           </Link>
           <span className="plain-white">
             Total Associates: {contactsData.length}
