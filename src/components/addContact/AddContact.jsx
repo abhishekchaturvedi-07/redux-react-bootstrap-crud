@@ -31,7 +31,7 @@ const AddContact = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Enter Your Name"
+              placeholder="Enter Your Name (Last Name + First Name)"
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
@@ -40,7 +40,7 @@ const AddContact = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Enter Your Phone Number"
+              placeholder="Enter Your Phone Number (10 digit value)"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
             />
@@ -49,7 +49,7 @@ const AddContact = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Enter Your E-mail Address"
+              placeholder="Enter Your E-mail Address (abc@xyz.com)"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
