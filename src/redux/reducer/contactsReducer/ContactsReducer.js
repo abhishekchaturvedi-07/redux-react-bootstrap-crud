@@ -25,9 +25,9 @@ const initialState = {
     },
     {
       id: 3,
-      name: "Sheikh Arif",
-      username: "rocky.chaturvedi",
-      email: "rocky.chaturvedi@abccomp.biz",
+      name: "Shaikh Arif",
+      username: "arif.shaikh",
+      email: "shaikh.arif@abccomp.biz",
       phone: "9999999999",
     },
     {
